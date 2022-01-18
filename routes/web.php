@@ -17,4 +17,7 @@ use App\Http\Controllers\UserController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', [Usercontroller::class, 'index'])->name('index');
+Route::get('/', [Usercontroller::class, 'cast'])->name('cast');
+Route::get('/bill', [Usercontroller::class, 'bill'])->name('bill');
+Route::get('/atte', [Usercontroller::class, 'atte'])->name('atte');
+Route::get('/parsonal', [Usercontroller::class, 'parsonal'])->name('parsonal');

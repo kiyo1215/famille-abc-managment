@@ -18,8 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->time('work_start_time');
             $table->time('work_end_time');
-            $table->time('lest_start_time');
-            $table->time('lest_end_time');
+            $table->time('rest_start_time');
+            $table->time('rest_end_time');
             $table->integer('drink')->nullable();
             $table->integer('cheki')->nullable();
             $table->string('email')->unique();

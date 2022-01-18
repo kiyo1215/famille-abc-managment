@@ -30,6 +30,7 @@
           <td>{{ $user->cheki }}</td>
         </tr>
         @endforeach
+        {{ $users->links() }}
       </table>
     </div>
   </main>
